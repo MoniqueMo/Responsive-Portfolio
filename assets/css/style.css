@@ -1,0 +1,314 @@
+
+body {background-image: url("../images/background.png");
+    background-color: gray;
+    background-size: cover;
+    font-size: 18px;
+    line-height: 34px;
+    padding: 0px;
+    margin: 0 auto; 
+}
+
+header { position: fixed;
+    z-index: 99;
+    width: 100%;
+    overflow: auto;
+    background-color: white;
+    color: #ffffff;
+    margin: 0 0 30px; 
+    border-bottom: 2px solid #cccccc;
+}
+
+.menu { width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+}
+
+
+#logo {float: left;
+    width: 250px;
+    height: 90px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 90px;
+    color: #777777;
+    text-align: center;
+    text-decoration: none;
+    background: #4aaaa5;
+    margin-bottom: 0px
+}
+
+.main-nav {
+    float:right;
+    margin-top: 25px;
+    margin-right: 30px   
+}
+
+.main-nav li { display: inline-block; 
+    padding-left: 15px;
+    margin-left: 15px;
+    line-height: 18px;
+    color:#999;
+    text-decoration: none;
+    border-left: 1px solid #efefef;
+}
+
+.main-nav a { text-decoration: none;
+    color: #777777;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px
+}
+
+.container  {
+    background-color: white; 
+    position: absolute;
+    margin-bottom: 200px;
+    top: 200px;
+    left: 200px;
+    width: 70%;
+    max-width: 960;
+}
+
+h2{ font-family: 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    padding: 20px;
+    margin: 20px;
+}
+
+#main-bio {font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    margin: 20px
+}
+
+#bio-image { width: 15%;
+    margin: 20px;
+    float: left;
+}
+
+.footer { position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-top:#4aaaa5;
+    border-top-style: solid; 
+    background-color: #666666;
+    color: white;
+    text-align: center;   
+}
+
+.ContactForm  {
+    background-color: white; 
+    position: absolute;
+    margin-bottom: 200px;
+    padding: 20px;
+    top: 200px;
+    left: 275px;
+    width: 60%;
+}
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #777777;
+  }
+
+#name {
+    display: block;
+    width: 100%;
+    margin-top: 8px;
+    margin-bottom: 10px;
+  }
+
+  #email {
+    display: block;
+    width: 100%;
+    margin-top: 8px;
+    margin-bottom: 10px;
+  }
+  #message {
+    display: block;
+    width: 100%;
+    height: 200px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+  }
+
+  #submit {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    text-align: center;
+    width: 80px;
+    height: 30px;
+  }
+
+  #main-container {padding-top: 130px;
+    min-height: calc(100vh - 70px)
+  }
+
+  .main-section {float:left;
+    width: 100%;
+    max-width: 960px;
+    padding: 30px;
+    margin: 0 0 40px;
+    background: #ffffff;
+  }
+
+ 
+  
+  h3 { font-family: 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    padding: 20px;
+    margin: 20px;
+    border-bottom-style: solid;
+    border-color: #777777
+}
+
+h4 {padding-bottom: 20px;
+    margin-bottom: 15px;
+    line-height: 22px;
+    border-bottom: 2px solid #eeeeee;
+}
+
+.pimages { position: relative;
+    float: left;
+    width: 274px;
+    margin: 20px 0 25px;
+    overflow: auto;   
+}
+
+.pimages:nth-child(even) {
+    margin-right: 40px;
+}
+
+.pimages img{ width:100%;
+    border: 0 none;
+    opacity: 0.8;
+}
+
+.pimages h4{ position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: #ffffff;
+    text-align:center;
+    background: #4aaaa5;
+    border-bottom: 0;
+}
+
+.auth-image { float: left;
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25px;
+}
+
+@media screen and (max-width: 980px) {
+    body{ font-size: 10px;
+        line-height: 95%;
+    }
+
+    header { 
+        position: static;
+    }
+
+    .main-nav a{
+
+    }
+  .container  {
+    position: absolute;
+    margin-bottom: 200px;
+    top: 200px;
+    left: 10px;
+    width: 40%;
+}
+
+
+.ContactForm  {
+    padding: 20px;
+    top: 200px;
+    left: 40px;
+    width: 60%;
+
+
+}
+
+@media screen and (max-width: 768px){
+    body{ font-size: 20px;
+    }
+
+    header { 
+        position: static;
+    }
+
+    .main-nav a{
+
+    }
+  .container  {
+    position: absolute;
+    margin-bottom: 200px;
+    top: 150px;
+    left: 50px;
+    width: 90%;
+    align-content: center
+}
+
+#bio-image { width: 25%;   
+}
+
+.ContactForm  {
+    padding: 0px;
+    top: 200px;
+    left: 0x;
+    width: 90%;
+   }
+
+   .main-section {
+    margin: 20px 20px 20px 20px;
+     width: 100%;
+     padding: 15px;
+   }
+
+   .pimages { 
+    width: 40%;
+    margin: 5px 5px 15px 5px; 
+
+}
+
+@media screen and (max-width: 640px) {
+
+    body{ font-size: 10px;
+    }
+ 
+    #bio-image { width: 100%;
+        margin: 5px 5px 30px 5px;
+   
+    }
+    .ContactForm  {
+        padding: 0px;
+        top: 200px;
+        left: 0x;
+        width: 100%;
+    }
+    h3 { font-size: 30px;
+    }
+
+    .main-section {
+       margin: 10px 10px 10px 10px;
+        width: 90%;
+        padding: 15px;
+      }
+
+      .pimages { 
+        width: 100%;
+        margin: 5px 5px 15px 5px;   
+    }
+
+    .pimages h4{ 
+        font-size: 200%
+    }
+}
+
